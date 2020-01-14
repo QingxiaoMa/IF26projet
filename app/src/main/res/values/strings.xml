@@ -3,5 +3,38 @@
     <string name="compte">Mon Compte</string>
     <string name="plus">+</string>
     <string name="moin">-</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="nom">nom?</string>
+    <string name="prenom">mot de passe?</string>
+    <string name="button1">Commander</string>
+    <string name="button2">Login</string>
+    <string name="button">BACK</string>
+    <string name="bu1">ENTREE</string>
+    <string name="bu2">PLAT</string>
+    <string name="bu3">DESSERT</string>
+    <string name="bu4">BOISSON</string>
+    <string name="selection">SELECTIONS</string>
+    <string name="back">valider</string>
+    <string name="delete">delete</string>
+    <string name="usernom">nom</string>
+    <string name="userpassword">######</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">MENU</string>
+    <string name="title_dashboard">MES COMMANDES</string>
+    <string name="title_notifications">MES FAVORIS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ajoutepanier">Ajouter au panier</string>
+    <string name="commander">Allez commander</string>
 
 </resources>

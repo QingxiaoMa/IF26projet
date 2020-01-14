@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        android:dividerPadding="10dp"
+        android:visibility="visible">
+
+    <GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+
+        <Button
+            android:id="@+id/bu1"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="205dp"
+            android:layout_height="138dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="#99009688"
+            android:text="@string/bu1" />
+
+        <Button
+            android:id="@+id/bu2"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="205dp"
+            android:layout_height="138dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:background="#994CAF50"
+            android:text="@string/bu2" />
+
+        <Button
+            android:id="@+id/bu3"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="205dp"
+            android:layout_height="138dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="#998BC34A"
+            android:text="@string/bu3" />
+
+        <Button
+            android:id="@+id/bu4"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="205dp"
+            android:layout_height="138dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:background="#99CDDC39"
+            android:text="@string/bu4" />
+
+    </GridLayout>
+
+        <ListView
+            android:id="@+id/lvSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/tvTotal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prix Total: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:textSize="30sp"
+            android:text="0"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="204dp"
+                android:layout_height="wrap_content"
+                android:background="#CC2196F3"
+                android:gravity="center|center_horizontal"
+                android:text="@string/back" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="204dp"
+                android:layout_height="wrap_content"
+                android:background="#B33F51B5"
+                android:gravity="center|center_horizontal"
+                android:text="@string/delete" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
